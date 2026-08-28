@@ -5,7 +5,11 @@ A 6-DOF robotic arm controlled by real-time hand tracking. A webcam captures han
 
 ## Status
 
-Work in progress. Wrist bend and claw are active and mapped to hand tracking. Base, shoulder, elbow, and wrist rotation are currently locked while the control mapping is tuned.
+**Phase 1 Complete**
+
+The current version supports real-time hand tracking with MediaPipe. Servo 3 controls wrist bend using vertical hand movement, while Servo 5 controls the claw using thumb-to-index finger distance.
+
+Servos 0, 1, 2, and 4 are currently locked while additional control mappings are developed for future phases.
 
 ## Architecture
 
