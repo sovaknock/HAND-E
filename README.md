@@ -72,4 +72,4 @@ python arm_hand.py
 - If `arm.local` doesn't resolve, SSH by IP address instead.
 - The Pi's Python environment lives in `~/arm-venv` with system site packages enabled for Blinka/ServoKit.
 
-Built by Sovannak, Nick, Anh
+Built by Sovannak, Nicholas, Anh
